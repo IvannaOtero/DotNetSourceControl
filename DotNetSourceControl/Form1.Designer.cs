@@ -28,31 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            btnGreeting = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnGreeting
             // 
-            button1.Location = new Point(213, 147);
-            button1.Name = "button1";
-            button1.Size = new Size(343, 133);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnGreeting.Location = new Point(56, 60);
+            btnGreeting.Name = "btnGreeting";
+            btnGreeting.Size = new Size(343, 133);
+            btnGreeting.TabIndex = 0;
+            btnGreeting.Text = "Click This Button";
+            btnGreeting.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            ClientSize = new Size(465, 260);
+            Controls.Add(btnGreeting);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Source Control ";
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Button button1;
+        private Button btnGreeting;
     }
 }
