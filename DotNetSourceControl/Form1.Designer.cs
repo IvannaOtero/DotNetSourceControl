@@ -33,21 +33,23 @@
             // 
             // btnGreeting
             // 
-            btnGreeting.Location = new Point(56, 60);
+            btnGreeting.Location = new Point(57, 96);
             btnGreeting.Name = "btnGreeting";
             btnGreeting.Size = new Size(343, 133);
             btnGreeting.TabIndex = 0;
             btnGreeting.Text = "Click This Button";
             btnGreeting.UseVisualStyleBackColor = true;
+            btnGreeting.Click += btnGreeting_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(465, 260);
+            ClientSize = new Size(465, 362);
             Controls.Add(btnGreeting);
             Name = "Form1";
             Text = "Source Control ";
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 
